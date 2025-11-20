@@ -59,7 +59,6 @@ react {
  */
 def enableProguardInReleaseBuilds = false
 
-
 /**
  * The preferred build flavor of JavaScriptCore (JSC)
  *
