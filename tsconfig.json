@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "types": ["node"], // Add this line if missing
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "target": "es6",
+    "module": "commonjs"
+  },
+  "extends": "@react-native/typescript-config",
+  "include": ["**/*.ts", "**/*.tsx", "App.jsx"],
+  "exclude": ["**/node_modules", "**/Pods"]
+}
